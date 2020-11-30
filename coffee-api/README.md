@@ -1,24 +1,21 @@
-# README
+# Coffee API
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+API Initial Setup:
 
-* Ruby version
+* CD into coffee-api directory
 
-* System dependencies
+* Run rake db:migrate
 
-* Configuration
+* Run rake db:seed
 
-* Database creation
+* How to filter by origin
+/coffee?origin= (search origin by full name, or letters included)
 
-* Database initialization
+* How to limit to some number of results
+/coffee?limit= (set number of how many results you want)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* how to specify which page of results
+/coffee?page= (specify page number 1...10)
